@@ -26,11 +26,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\app\cep\cep.component.ts" />
+    <None Remove="ClientApp\src\app\cep\cep.ts" />
     <None Remove="ClientApp\src\app\Modelo\Produto.ts" />
     <None Remove="ClientApp\src\app\Modelo\Usuario.ts" />
     <None Remove="ClientApp\src\app\produtos\produto-list\produto.list.component.ts" />
     <None Remove="ClientApp\src\app\produtos\produtos.component.ts" />
     <None Remove="ClientApp\src\app\produtos\produto\produto.component.ts" />
+    <None Remove="ClientApp\src\app\shared\cep.service.ts" />
     <None Remove="ClientApp\src\app\shared\produto.model.ts" />
     <None Remove="ClientApp\src\app\shared\produto.service.ts" />
     <None Remove="ClientApp\src\app\usuario\login\login.component.ts" />
@@ -41,11 +44,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\src\app\cep\cep.component.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\cep\cep.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\Modelo\Produto.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\Modelo\Usuario.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\produtos\produto-list\produto.list.component.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\produtos\produtos.component.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\produtos\produto\produto.component.ts" />
+    <TypeScriptCompile Include="ClientApp\src\app\shared\cep.service.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\shared\produto.model.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\shared\produto.service.ts" />
     <TypeScriptCompile Include="ClientApp\src\app\usuario\login\login.component.ts" />

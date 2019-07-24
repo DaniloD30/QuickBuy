@@ -1,8 +1,9 @@
 import { Component, OnInit } from "@angular/core";
 import { ProdutoService } from './../../shared/produto.service';
 import { NgForm } from '@angular/forms';
-import { ToastrService } from 'ngx-toastr';
-
+//import { ToastrService } from 'ngx-toastr';
+//import { ToastsManager } from 'ng2-toastr/ng2-toastr';
+//import { Component, ViewContainerRef } from '@angular/core';
 @Component({
   selector: "app-produto",
   templateUrl: "./produto.component.html",
@@ -10,8 +11,11 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class ProdutoComponent {
 
-  constructor(private service: ProdutoService,
-    private toastr: ToastrService) { }
+  constructor(private service: ProdutoService
+    ) {
+   
+      
+  }
 
   ngOnInit() {
     this.resetForm();
@@ -42,7 +46,8 @@ export class ProdutoComponent {
       res => {
         debugger;
         this.resetForm(form);
-        this.toastr.success('Cadastrado com sucesso', 'Cadastro dos Produtos');
+        alert('Cadastrado com sucesso');
+       // this.toastr.success('Cadastrado com sucesso', 'Cadastro dos Produtos');
         this.service.refreshList();
       },
       err => {
@@ -55,7 +60,8 @@ export class ProdutoComponent {
     this.service.putPaymentDetail().subscribe(
       res => {
         this.resetForm(form);
-        this.toastr.info('Editado com sucesso', 'Cadastro dos Produtos');
+        alert('Editado com sucesso');
+       // this.toastr.info('Editado com sucesso', 'Cadastro dos Produtos');
         this.service.refreshList();
       },
       err => {

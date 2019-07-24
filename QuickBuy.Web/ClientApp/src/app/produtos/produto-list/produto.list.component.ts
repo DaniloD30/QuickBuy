@@ -27,7 +27,8 @@ export class ProdutoListComponent implements OnInit {
         .subscribe(res => {
           debugger;
           this.service.refreshList();
-          this.toastr.warning('Deletado com sucesso', 'Cadastro dos Produtos');
+          alert('Deletado com sucesso');
+          //this.toastr.warning('Deletado com sucesso', 'Cadastro dos Produtos');
         },
           err => {
             debugger;

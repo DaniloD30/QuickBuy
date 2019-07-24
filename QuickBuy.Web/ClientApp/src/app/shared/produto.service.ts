@@ -27,4 +27,6 @@ export class ProdutoService {
       .toPromise()
       .then(res => this.list = res as Produto[]);
   }
+
+
 }
