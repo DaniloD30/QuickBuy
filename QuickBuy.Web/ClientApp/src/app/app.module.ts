@@ -21,6 +21,7 @@ import { ProdutosComponent } from './produtos/produtos.component';
 import { ProdutoComponent } from './produtos/produto/produto.component';
 import { ProdutoListComponent } from './produtos/produto-list/produto.list.component';
 import { ProdutoService } from './shared/produto.service';
+import { GuardaRotas } from './autorizacao/guarda.rotas';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,7 @@ import { ProdutoService } from './shared/produto.service';
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
-      { path: 'produto', component: ProdutosComponent },
+      { path: 'produto', component: ProdutosComponent, canActivate:[GuardaRotas]},
       { path: 'cep', component: CepComponent },
       {path: 'login', component: LoginComponent}
     ])

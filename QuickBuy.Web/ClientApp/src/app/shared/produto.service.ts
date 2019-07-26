@@ -7,7 +7,10 @@ import { HttpClient } from "@angular/common/http";
 })
 export class ProdutoService {
   formData: Produto;
-  readonly rootURL = 'https://localhost:44326/api/';
+  readonly rootURL = 'https://localhost:5001/api/';
+  //'https://localhost:5001/api/'; Visual Studio Code
+  //'https://localhost:44326/api/'; Visual Studio 
+  //
   list: Produto[];
 
   constructor(private http: HttpClient) { }
