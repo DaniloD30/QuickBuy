@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danil\\source\\repos\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj",
+      "projectUniqueName": "c:\\Users\\danil\\source\\repos\\QuickBuyGit\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj",
       "projectName": "QuickBuy.Dominio",
-      "projectPath": "C:\\Users\\danil\\source\\repos\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj",
+      "projectPath": "c:\\Users\\danil\\source\\repos\\QuickBuyGit\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj",
       "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danil\\source\\repos\\QuickBuy\\QuickBuy.Dominio\\obj\\",
+      "outputPath": "c:\\Users\\danil\\source\\repos\\QuickBuyGit\\QuickBuy\\QuickBuy.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

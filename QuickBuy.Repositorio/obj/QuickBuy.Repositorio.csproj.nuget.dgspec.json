@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danil\\source\\repos\\QuickBuy\\QuickBuy.Repositorio\\QuickBuy.Repositorio.csproj": {}
+    "C:\\Users\\danil\\source\\repos\\QuickBuyGit\\QuickBuy\\QuickBuy.Repositorio\\QuickBuy.Repositorio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danil\\source\\repos\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj": {
+    "C:\\Users\\danil\\source\\repos\\QuickBuyGit\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danil\\source\\repos\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\danil\\source\\repos\\QuickBuyGit\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj",
         "projectName": "QuickBuy.Dominio",
-        "projectPath": "C:\\Users\\danil\\source\\repos\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj",
+        "projectPath": "C:\\Users\\danil\\source\\repos\\QuickBuyGit\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danil\\source\\repos\\QuickBuy\\QuickBuy.Dominio\\obj\\",
+        "outputPath": "C:\\Users\\danil\\source\\repos\\QuickBuyGit\\QuickBuy\\QuickBuy.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\Users\\danil\\source\\repos\\QuickBuy\\QuickBuy.Repositorio\\QuickBuy.Repositorio.csproj": {
+    "C:\\Users\\danil\\source\\repos\\QuickBuyGit\\QuickBuy\\QuickBuy.Repositorio\\QuickBuy.Repositorio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danil\\source\\repos\\QuickBuy\\QuickBuy.Repositorio\\QuickBuy.Repositorio.csproj",
+        "projectUniqueName": "C:\\Users\\danil\\source\\repos\\QuickBuyGit\\QuickBuy\\QuickBuy.Repositorio\\QuickBuy.Repositorio.csproj",
         "projectName": "QuickBuy.Repositorio",
-        "projectPath": "C:\\Users\\danil\\source\\repos\\QuickBuy\\QuickBuy.Repositorio\\QuickBuy.Repositorio.csproj",
+        "projectPath": "C:\\Users\\danil\\source\\repos\\QuickBuyGit\\QuickBuy\\QuickBuy.Repositorio\\QuickBuy.Repositorio.csproj",
         "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danil\\source\\repos\\QuickBuy\\QuickBuy.Repositorio\\obj\\",
+        "outputPath": "C:\\Users\\danil\\source\\repos\\QuickBuyGit\\QuickBuy\\QuickBuy.Repositorio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -82,8 +82,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\danil\\source\\repos\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj": {
-                "projectPath": "C:\\Users\\danil\\source\\repos\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj"
+              "C:\\Users\\danil\\source\\repos\\QuickBuyGit\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj": {
+                "projectPath": "C:\\Users\\danil\\source\\repos\\QuickBuyGit\\QuickBuy\\QuickBuy.Dominio\\QuickBuy.Dominio.csproj"
               }
             }
           }
